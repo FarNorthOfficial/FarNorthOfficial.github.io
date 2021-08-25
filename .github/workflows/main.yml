@@ -15,7 +15,6 @@ jobs:
           
       - name: Install and Build 🔧
         run: |
-          ng install
           ng build
 
       - name: Deploy 🚀
